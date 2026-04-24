@@ -51,7 +51,7 @@ Order Service → Kafka Topic → Analytics Consumer → PostgreSQL → REST API
 
 - Java 17+
 - Node.js 18+
-- PostgreSQL 8+
+- PostgreSQL 15+
 - Apache Kafka 3+
 - Docker (optional)
 
@@ -66,7 +66,7 @@ cd ecommerce-analytics
 **2. Configure database**
 ```bash
 # Update src/main/resources/application.properties
-spring.datasource.url=jdbc:postgresql://localhost:3306/ecommerce_analytics
+spring.datasource.url=jdbc:postgresql://localhost:5432/ecommerce_analytics
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 ```
@@ -121,11 +121,3 @@ Analytics queries require complex aggregations and joins across time periods and
 - Add WebSocket support for true push-based live dashboard updates
 - Implement dead letter queue for failed message processing
 - Add comprehensive JUnit test coverage
-
-## Screenshots
-
-*(Add dashboard screenshots here)*
-
-## License
-
-MIT License
