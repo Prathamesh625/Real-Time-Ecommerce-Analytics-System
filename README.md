@@ -23,7 +23,7 @@ A full-stack real-time analytics platform built with Java, Spring Boot, Apache K
 - Maven
 
 **Frontend**
-- React.js
+- Angular
 - Chart.js — real-time data visualization
 - Axios — API communication
 
