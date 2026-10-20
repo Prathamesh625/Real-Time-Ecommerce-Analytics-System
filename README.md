@@ -25,7 +25,6 @@ A full-stack real-time analytics platform built with Java, Spring Boot, Apache K
 **Frontend**
 - Angular
 - Chart.js — real-time data visualization
-- Axios — API communication
 
 **DevOps**
 - Docker and Docker Compose
